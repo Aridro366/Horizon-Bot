@@ -4,7 +4,9 @@ import json
 import asyncio
 from datetime import datetime, timedelta
 import time
+from keep_alive import keep_alive
 
+keep_alive()
 with open("config.json") as f:
     config = json.load(f)
 
@@ -37,3 +39,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

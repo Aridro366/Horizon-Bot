@@ -4,6 +4,7 @@ import json
 import asyncio
 from datetime import datetime, timedelta
 import time
+import dotenv
 from keep_alive import keep_alive
 from dotenv import load_dotenv
 
@@ -40,5 +41,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 

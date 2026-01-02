@@ -5,6 +5,7 @@ import asyncio
 from datetime import datetime, timedelta
 import time
 from keep_alive import keep_alive
+from dotenv import load_dotenv
 
 keep_alive()
 with open("config.json") as f:
@@ -39,4 +40,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

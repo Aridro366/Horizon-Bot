@@ -38,7 +38,6 @@ async def setup_hook():
     for ext in [
         "cogs.moderation",
         "cogs.logging",
-        "cogs.welcome",
         "cogs.afk",
         "cogs.cmd",
         "cogs.Utility",
@@ -63,3 +62,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
